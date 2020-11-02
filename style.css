@@ -1,0 +1,38 @@
+body {
+background-color: black;
+}
+
+.container{
+    background-color: gray;
+}
+.odd{
+    background-color: darkgray;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    text-align: center;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+.tic{
+    width: 30rem;
+}
+.clickedX{
+    background-image: url('X.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clickedO{
+    background-image: url('O.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
